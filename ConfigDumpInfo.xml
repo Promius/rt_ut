@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<ConfigDumpInfo xmlns="http://v8.1c.ru/8.3/xcf/dumpinfo" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" format="Hierarchical" version="2.18">
+<ConfigDumpInfo xmlns="http://v8.1c.ru/8.3/xcf/dumpinfo" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" format="Hierarchical" version="2.17">
 	<ConfigVersions>
 		<Metadata name="CommonPicture.ЗаполнитьПоШаблону" id="abbc8c50-b7b2-4fb8-b168-f7d7895cfbfa" configVersion="d3634355a8406fc142591b3bd427886d6771dab5"/>
 		<Metadata name="CommonPicture.ЗаполнитьФорму" id="b992733a-39bf-4ce4-95e2-4db26e5a6e52" configVersion="5fefb293b6554cadd0f53146add2d47d65955bcf"/>
@@ -9,7 +9,7 @@
 		<Metadata name="Configuration.ТД_РусТорг" id="638c1f57-457f-4887-a276-22eeb492284b" configVersion="6817ed52536344b7b4e7bb5df25220a287da45fe"/>
 		<Metadata name="Document.ЗаказКлиента" id="a4354e1a-52c5-4d22-9f70-b9608cce26cd" configVersion="9c446cbb47f1ba84809b0f75979827afbd3f026c"/>
 		<Metadata name="Document.ЗаказКлиента.Form.ФормаДокумента" id="32d23475-e4c9-4f2b-a257-3d64dab59651" configVersion="f1a5613a78df2d38ce8c5bc5795d0eafc62575c0"/>
-		<Metadata name="Document.ЗаказКлиента.Form.ФормаДокумента.Form" id="32d23475-e4c9-4f2b-a257-3d64dab59651.0" configVersion="0f1a694cd956a0bf614f255a5edd26e441087757"/>
+		<Metadata name="Document.ЗаказКлиента.Form.ФормаДокумента.Form" id="32d23475-e4c9-4f2b-a257-3d64dab59651.0" configVersion="5674fd637f6b66aef14c34a8e911ad353b3e466b"/>
 		<Metadata name="Enum.СпособыДоставки" id="6329adbc-619a-4f90-bdad-5e11bce4b228" configVersion="bc2f13e253a650d9a1bcdf2514a8c088f2ecdc95">
 			<Metadata name="Enum.СпособыДоставки.EnumValue.СиламиПеревозчика" id="250977a4-d57e-4cb2-a68b-dc852a295c58"/>
 			<Metadata name="Enum.СпособыДоставки.EnumValue.КПолучателюОпределяетСлужбаДоставки" id="31aa4dae-71ba-4bff-8015-0a3f7b1f73d6"/>
