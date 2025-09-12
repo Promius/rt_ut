@@ -1,15 +1,15 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<ConfigDumpInfo xmlns="http://v8.1c.ru/8.3/xcf/dumpinfo" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" format="Hierarchical" version="2.17">
+<ConfigDumpInfo xmlns="http://v8.1c.ru/8.3/xcf/dumpinfo" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" format="Hierarchical" version="2.20">
 	<ConfigVersions>
 		<Metadata name="CommonPicture.ЗаполнитьПоШаблону" id="abbc8c50-b7b2-4fb8-b168-f7d7895cfbfa" configVersion="d3634355a8406fc142591b3bd427886d6771dab5"/>
 		<Metadata name="CommonPicture.ЗаполнитьФорму" id="b992733a-39bf-4ce4-95e2-4db26e5a6e52" configVersion="5fefb293b6554cadd0f53146add2d47d65955bcf"/>
 		<Metadata name="CommonPicture.Набор" id="1088eda6-9086-4a82-bc25-8fd13b27b9b9" configVersion="ffd9fc4bf459e7f1c6e1cbe0b272ca32370c6e5d"/>
 		<Metadata name="CommonPicture.Наборы" id="388694f6-134d-4514-b587-b4735e8161e7" configVersion="e05015a7db71aed1213e652bcece04e76f972a90"/>
 		<Metadata name="CommonPicture.Отчеты" id="e027e43d-cd70-40ba-8aab-87c2f832d6a2" configVersion="a89060fd55fc08ce4c7b8865bad714aac61f82ac"/>
-		<Metadata name="Configuration.ТД_РусТорг" id="638c1f57-457f-4887-a276-22eeb492284b" configVersion="6817ed52536344b7b4e7bb5df25220a287da45fe"/>
+		<Metadata name="Configuration.ТД_РусТорг" id="638c1f57-457f-4887-a276-22eeb492284b" configVersion="6c69ec842135f5af5ddcc42d15c95bc0cfbb2bd5"/>
 		<Metadata name="Document.ЗаказКлиента" id="a4354e1a-52c5-4d22-9f70-b9608cce26cd" configVersion="9c446cbb47f1ba84809b0f75979827afbd3f026c"/>
 		<Metadata name="Document.ЗаказКлиента.Form.ФормаДокумента" id="32d23475-e4c9-4f2b-a257-3d64dab59651" configVersion="f1a5613a78df2d38ce8c5bc5795d0eafc62575c0"/>
-		<Metadata name="Document.ЗаказКлиента.Form.ФормаДокумента.Form" id="32d23475-e4c9-4f2b-a257-3d64dab59651.0" configVersion="5674fd637f6b66aef14c34a8e911ad353b3e466b"/>
+		<Metadata name="Document.ЗаказКлиента.Form.ФормаДокумента.Form" id="32d23475-e4c9-4f2b-a257-3d64dab59651.0" configVersion="9bc69686fe9d1ba90505b728304035962cabd174"/>
 		<Metadata name="Enum.СпособыДоставки" id="6329adbc-619a-4f90-bdad-5e11bce4b228" configVersion="bc2f13e253a650d9a1bcdf2514a8c088f2ecdc95">
 			<Metadata name="Enum.СпособыДоставки.EnumValue.СиламиПеревозчика" id="250977a4-d57e-4cb2-a68b-dc852a295c58"/>
 			<Metadata name="Enum.СпособыДоставки.EnumValue.КПолучателюОпределяетСлужбаДоставки" id="31aa4dae-71ba-4bff-8015-0a3f7b1f73d6"/>
@@ -27,7 +27,7 @@
 			<Metadata name="Enum.ТипыНалогообложенияНДС.EnumValue.ПродажаОблагаетсяНДС" id="a0c1fc2e-0336-43d6-bacb-778df763e4b2"/>
 		</Metadata>
 		<Metadata name="Language.Русский" id="555cca23-2186-4e74-bff6-5cfbb81bf5c6" configVersion="e9948b2db73d1e3b9aa4003af5bac5e5fbc0a030"/>
-		<Metadata name="Role.РасшРТ_ОсновнаяРоль" id="e5c85b77-6d87-4819-ab0d-e529a37d0359" configVersion="e0a027e442336af093b0dc794350db76e4496cea"/>
+		<Metadata name="Role.РасшРТ_ОсновнаяРоль" id="e5c85b77-6d87-4819-ab0d-e529a37d0359" configVersion="ae5becc9f11bcc13b8e8543197ec04aa499caf57"/>
 		<Metadata name="StyleItem.ГиперссылкаЦвет" id="6636e179-7454-4031-88bd-51b434e24e98" configVersion="ce1756316986960131f10c8832d1a3a6301b13b0"/>
 		<Metadata name="StyleItem.ИтогиФон" id="dd1d08e5-61dc-4224-8dd6-ce9e51137683" configVersion="a80132ca84b12bb5f62e705a36b7450d025f7947"/>
 		<Metadata name="StyleItem.ЦветТекстаПроблема" id="3fa45680-8b73-48f7-a154-06d45bde628e" configVersion="d06f7538301213ba156a8f7f2ad3c28e2361e6dd"/>
