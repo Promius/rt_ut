@@ -1625,6 +1625,9 @@
 													<Wrap>false</Wrap>
 													<ContextMenu name="ТоварыКоличествоУпаковокКонтекстноеМеню" id="477"/>
 													<ExtendedTooltip name="ТоварыКоличествоУпаковокРасширеннаяПодсказка" id="1202"/>
+													<Events>
+														<Event name="OnChange" callType="After">РасшРТ_ТоварыКоличествоУпаковокПриИзмененииПосле</Event>
+													</Events>
 												</InputField>
 												<LabelField name="ТоварыДоступно" id="1829">
 													<EditMode>EnterOnInput</EditMode>
