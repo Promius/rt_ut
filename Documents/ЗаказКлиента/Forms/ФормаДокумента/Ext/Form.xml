@@ -242,6 +242,7 @@
 	</AutoCommandBar>
 	<Events>
 		<Event name="OnOpen" callType="After">РасшРТ_ПриОткрытииПосле</Event>
+		<Event name="BeforeWrite" callType="Before">РасшРТ_ПередЗаписьюПеред</Event>
 		<Event name="OnCreateAtServer" callType="After">РасшРТ_ПриСозданииНаСервереПосле</Event>
 	</Events>
 	<ChildItems>
