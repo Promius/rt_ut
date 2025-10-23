@@ -6,12 +6,10 @@
 		<Metadata name="CommonPicture.Набор" id="1088eda6-9086-4a82-bc25-8fd13b27b9b9" configVersion="ffd9fc4bf459e7f1c6e1cbe0b272ca32370c6e5d"/>
 		<Metadata name="CommonPicture.Наборы" id="388694f6-134d-4514-b587-b4735e8161e7" configVersion="e05015a7db71aed1213e652bcece04e76f972a90"/>
 		<Metadata name="CommonPicture.Отчеты" id="e027e43d-cd70-40ba-8aab-87c2f832d6a2" configVersion="a89060fd55fc08ce4c7b8865bad714aac61f82ac"/>
-		<Metadata name="Configuration.ТД_РусТорг" id="638c1f57-457f-4887-a276-22eeb492284b" configVersion="047012e4a8c9fc69bed29671703dfd8d89746962"/>
+		<Metadata name="Configuration.ТД_РусТорг" id="638c1f57-457f-4887-a276-22eeb492284b" configVersion="6817ed52536344b7b4e7bb5df25220a287da45fe"/>
 		<Metadata name="Document.ЗаказКлиента" id="a4354e1a-52c5-4d22-9f70-b9608cce26cd" configVersion="9c446cbb47f1ba84809b0f75979827afbd3f026c"/>
 		<Metadata name="Document.ЗаказКлиента.Form.ФормаДокумента" id="32d23475-e4c9-4f2b-a257-3d64dab59651" configVersion="f1a5613a78df2d38ce8c5bc5795d0eafc62575c0"/>
 		<Metadata name="Document.ЗаказКлиента.Form.ФормаДокумента.Form" id="32d23475-e4c9-4f2b-a257-3d64dab59651.0" configVersion="b5e1ac77a0bf187a2546628d15ebca9dc0e37eea"/>
-		<Metadata name="Document.ТранспортнаяНакладная" id="5c9d6025-9bc9-4aa1-8c6c-0ccc1287ac2f" configVersion="a14f9225591277301df2a5c7f3c8e27a07166aed"/>
-		<Metadata name="Document.ТранспортнаяНакладная.ManagerModule" id="5c9d6025-9bc9-4aa1-8c6c-0ccc1287ac2f.2" configVersion="6e1ee1d782cec7222ea15466c1db2938034d7c67"/>
 		<Metadata name="Enum.СпособыДоставки" id="6329adbc-619a-4f90-bdad-5e11bce4b228" configVersion="bc2f13e253a650d9a1bcdf2514a8c088f2ecdc95">
 			<Metadata name="Enum.СпособыДоставки.EnumValue.СиламиПеревозчика" id="250977a4-d57e-4cb2-a68b-dc852a295c58"/>
 			<Metadata name="Enum.СпособыДоставки.EnumValue.КПолучателюОпределяетСлужбаДоставки" id="31aa4dae-71ba-4bff-8015-0a3f7b1f73d6"/>
