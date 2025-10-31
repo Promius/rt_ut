@@ -1,0 +1,627 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.18">
+	<AutoTime>CurrentOrLast</AutoTime>
+	<UsePostingMode>Auto</UsePostingMode>
+	<RepostOnWrite>true</RepostOnWrite>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
+		<ChildItems>
+			<Button name="ФормаВыгрузитьВXLSX" id="98">
+				<Type>CommandBarButton</Type>
+				<Representation>PictureAndText</Representation>
+				<CommandName>Form.Command.ВыгрузитьВXLSX</CommandName>
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Выгрузить в XLSX</v8:content>
+					</v8:item>
+				</Title>
+				<ExtendedTooltip name="ФормаВыгрузитьВXLSXРасширеннаяПодсказка" id="99"/>
+			</Button>
+		</ChildItems>
+	</AutoCommandBar>
+	<Events>
+		<Event name="AfterWriteAtServer">ПослеЗаписиНаСервере</Event>
+		<Event name="NotificationProcessing">ОбработкаОповещения</Event>
+		<Event name="OnReadAtServer">ПриЧтенииНаСервере</Event>
+		<Event name="OnOpen">ПриОткрытии</Event>
+		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
+	</Events>
+	<ChildItems>
+		<UsualGroup name="ГруппаНомер" id="59">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа номер</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа номер</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Group>AlwaysHorizontal</Group>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="ГруппаНомерРасширеннаяПодсказка" id="60"/>
+			<ChildItems>
+				<InputField name="Номер" id="1">
+					<DataPath>Объект.Number</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="НомерКонтекстноеМеню" id="2"/>
+					<ExtendedTooltip name="НомерРасширеннаяПодсказка" id="3"/>
+				</InputField>
+				<InputField name="Дата" id="4">
+					<DataPath>Объект.Date</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="ДатаКонтекстноеМеню" id="5"/>
+					<ExtendedTooltip name="ДатаРасширеннаяПодсказка" id="6"/>
+				</InputField>
+			</ChildItems>
+		</UsualGroup>
+		<InputField name="Контрагент" id="61">
+			<DataPath>Объект.Контрагент</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="КонтрагентКонтекстноеМеню" id="62"/>
+			<ExtendedTooltip name="КонтрагентРасширеннаяПодсказка" id="63"/>
+		</InputField>
+		<InputField name="Номенклатура" id="64">
+			<DataPath>Объект.Номенклатура</DataPath>
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Номенклатура</v8:content>
+				</v8:item>
+			</Title>
+			<EditMode>EnterOnInput</EditMode>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="НоменклатураКонтекстноеМеню" id="65"/>
+			<ExtendedTooltip name="НоменклатураРасширеннаяПодсказка" id="66"/>
+			<Events>
+				<Event name="OnChange">НоменклатураПриИзменении</Event>
+			</Events>
+		</InputField>
+		<InputField name="МенеджерПоПродажам" id="67">
+			<DataPath>Объект.МенеджерПоПродажам</DataPath>
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Ответственный</v8:content>
+				</v8:item>
+			</Title>
+			<EditMode>EnterOnInput</EditMode>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="МенеджерПоПродажамКонтекстноеМеню" id="68"/>
+			<ExtendedTooltip name="МенеджерПоПродажамРасширеннаяПодсказка" id="69"/>
+		</InputField>
+		<InputField name="Статус" id="7">
+			<DataPath>Объект.Статус</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="СтатусКонтекстноеМеню" id="8"/>
+			<ExtendedTooltip name="СтатусРасширеннаяПодсказка" id="9"/>
+		</InputField>
+		<UsualGroup name="ГруппаСогласования" id="107">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа согласования</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа согласования</v8:content>
+				</v8:item>
+			</ToolTip>
+			<HorizontalStretch>true</HorizontalStretch>
+			<Group>AlwaysHorizontal</Group>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="ГруппаСогласованияРасширеннаяПодсказка" id="108"/>
+			<ChildItems>
+				<InputField name="ПроцентКомпенсации" id="10">
+					<DataPath>Объект.ПроцентКомпенсации</DataPath>
+					<HorizontalAlign>Right</HorizontalAlign>
+					<EditMode>EnterOnInput</EditMode>
+					<Width>4</Width>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="ПроцентКомпенсацииКонтекстноеМеню" id="11"/>
+					<ExtendedTooltip name="ПроцентКомпенсацииРасширеннаяПодсказка" id="12"/>
+				</InputField>
+				<LabelDecoration name="Декорация1" id="109">
+					<Title formatted="false">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>%</v8:content>
+						</v8:item>
+					</Title>
+					<GroupHorizontalAlign>Left</GroupHorizontalAlign>
+					<ContextMenu name="Декорация1КонтекстноеМеню" id="110"/>
+					<ExtendedTooltip name="Декорация1РасширеннаяПодсказка" id="111"/>
+				</LabelDecoration>
+				<LabelDecoration name="Декорация2" id="112">
+					<Width>5</Width>
+					<ContextMenu name="Декорация2КонтекстноеМеню" id="113"/>
+					<ExtendedTooltip name="Декорация2РасширеннаяПодсказка" id="114"/>
+				</LabelDecoration>
+				<CheckBoxField name="Согласовано" id="16">
+					<DataPath>Объект.Согласовано</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<CheckBoxType>Auto</CheckBoxType>
+					<ContextMenu name="СогласованоКонтекстноеМеню" id="17"/>
+					<ExtendedTooltip name="СогласованоРасширеннаяПодсказка" id="18"/>
+				</CheckBoxField>
+			</ChildItems>
+		</UsualGroup>
+		<UsualGroup name="ГруппаХарактеристики" id="70">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Характеристики</v8:content>
+				</v8:item>
+			</Title>
+			<Group>Horizontal</Group>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="ГруппаХарактеристикиРасширеннаяПодсказка" id="71"/>
+			<ChildItems>
+				<UsualGroup name="ГруппаХарактеристикиЛево" id="72">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Характеристики лево</v8:content>
+						</v8:item>
+					</Title>
+					<Group>Vertical</Group>
+					<Representation>None</Representation>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="ГруппаХарактеристикиЛевоРасширеннаяПодсказка" id="73"/>
+					<ChildItems>
+						<InputField name="Артикул" id="19">
+							<DataPath>Объект.Артикул</DataPath>
+							<ReadOnly>true</ReadOnly>
+							<EditMode>EnterOnInput</EditMode>
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<ContextMenu name="АртикулКонтекстноеМеню" id="20"/>
+							<ExtendedTooltip name="АртикулРасширеннаяПодсказка" id="21"/>
+						</InputField>
+						<InputField name="Марка" id="22">
+							<DataPath>Объект.Марка</DataPath>
+							<ReadOnly>true</ReadOnly>
+							<EditMode>EnterOnInput</EditMode>
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<ContextMenu name="МаркаКонтекстноеМеню" id="23"/>
+							<ExtendedTooltip name="МаркаРасширеннаяПодсказка" id="24"/>
+						</InputField>
+						<InputField name="Типоразмер" id="25">
+							<DataPath>Объект.Типоразмер</DataPath>
+							<ReadOnly>true</ReadOnly>
+							<EditMode>EnterOnInput</EditMode>
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<ContextMenu name="ТипоразмерКонтекстноеМеню" id="26"/>
+							<ExtendedTooltip name="ТипоразмерРасширеннаяПодсказка" id="27"/>
+						</InputField>
+						<InputField name="РисунокПротектора" id="28">
+							<DataPath>Объект.РисунокПротектора</DataPath>
+							<ReadOnly>true</ReadOnly>
+							<EditMode>EnterOnInput</EditMode>
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<ContextMenu name="РисунокПротектораКонтекстноеМеню" id="29"/>
+							<ExtendedTooltip name="РисунокПротектораРасширеннаяПодсказка" id="30"/>
+						</InputField>
+					</ChildItems>
+				</UsualGroup>
+				<UsualGroup name="ГруппаХарактеристикиПраво" id="74">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Характеристики право</v8:content>
+						</v8:item>
+					</Title>
+					<Group>Vertical</Group>
+					<Representation>None</Representation>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="ГруппаХарактеристикиПравоРасширеннаяПодсказка" id="75"/>
+					<ChildItems>
+						<InputField name="СерийныйНомер" id="31">
+							<DataPath>Объект.СерийныйНомер</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<ContextMenu name="СерийныйНомерКонтекстноеМеню" id="32"/>
+							<ExtendedTooltip name="СерийныйНомерРасширеннаяПодсказка" id="33"/>
+						</InputField>
+						<InputField name="Нормослойность" id="34">
+							<DataPath>Объект.Нормослойность</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<ContextMenu name="НормослойностьКонтекстноеМеню" id="35"/>
+							<ExtendedTooltip name="НормослойностьРасширеннаяПодсказка" id="36"/>
+						</InputField>
+						<InputField name="DOT" id="37">
+							<DataPath>Объект.DOT</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<ContextMenu name="DOTКонтекстноеМеню" id="38"/>
+							<ExtendedTooltip name="DOTРасширеннаяПодсказка" id="39"/>
+						</InputField>
+						<InputField name="ОГП" id="40">
+							<DataPath>Объект.ОГП</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<Format>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>ЧДЦ=2</v8:content>
+								</v8:item>
+							</Format>
+							<ContextMenu name="ОГПКонтекстноеМеню" id="41"/>
+							<ExtendedTooltip name="ОГПРасширеннаяПодсказка" id="42"/>
+						</InputField>
+					</ChildItems>
+				</UsualGroup>
+			</ChildItems>
+		</UsualGroup>
+		<InputField name="Комментарий" id="13">
+			<DataPath>Объект.Комментарий</DataPath>
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Причина рекламации</v8:content>
+				</v8:item>
+			</Title>
+			<EditMode>EnterOnInput</EditMode>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="КомментарийКонтекстноеМеню" id="14"/>
+			<ExtendedTooltip name="КомментарийРасширеннаяПодсказка" id="15"/>
+		</InputField>
+		<UsualGroup name="ГруппаПутьСохранения" id="100">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Путь сохранения</v8:content>
+				</v8:item>
+			</Title>
+			<Group>AlwaysHorizontal</Group>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="ГруппаПутьСохраненияРасширеннаяПодсказка" id="101"/>
+			<ChildItems>
+				<InputField name="ПутьСохраненияФайла" id="102">
+					<DataPath>ПутьСохраненияФайла</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ПутьСохраненияФайлаКонтекстноеМеню" id="103"/>
+					<ExtendedTooltip name="ПутьСохраненияФайлаРасширеннаяПодсказка" id="104"/>
+				</InputField>
+				<Button name="ВыбратьПутьСохранения" id="105">
+					<Type>CommandBarButton</Type>
+					<CommandName>Form.Command.ВыбратьПутьСохранения</CommandName>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>...</v8:content>
+						</v8:item>
+					</Title>
+					<ExtendedTooltip name="ВыбратьПутьСохраненияРасширеннаяПодсказка" id="106"/>
+				</Button>
+			</ChildItems>
+		</UsualGroup>
+		<Table name="ПрикрепленныеФайлыСписок" id="76">
+			<UseAlternationRowColor>true</UseAlternationRowColor>
+			<EnableStartDrag>true</EnableStartDrag>
+			<EnableDrag>true</EnableDrag>
+			<DataPath>ПрикрепленныеФайлыСписок</DataPath>
+			<RowPictureDataPath>ПрикрепленныеФайлыСписок.DefaultPicture</RowPictureDataPath>
+			<AutoRefresh>false</AutoRefresh>
+			<AutoRefreshPeriod>60</AutoRefreshPeriod>
+			<Period>
+				<v8:variant xsi:type="v8:StandardPeriodVariant">Custom</v8:variant>
+				<v8:startDate>0001-01-01T00:00:00</v8:startDate>
+				<v8:endDate>0001-01-01T00:00:00</v8:endDate>
+			</Period>
+			<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+			<RestoreCurrentRow>false</RestoreCurrentRow>
+			<TopLevelParent xsi:nil="true"/>
+			<ShowRoot>true</ShowRoot>
+			<AllowRootChoice>false</AllowRootChoice>
+			<UpdateOnDataChange>Auto</UpdateOnDataChange>
+			<AllowGettingCurrentRowURL>true</AllowGettingCurrentRowURL>
+			<ContextMenu name="ПрикрепленныеФайлыСписокКонтекстноеМеню" id="77"/>
+			<AutoCommandBar name="ПрикрепленныеФайлыСписокКоманднаяПанель" id="78"/>
+			<ExtendedTooltip name="ПрикрепленныеФайлыСписокРасширеннаяПодсказка" id="79"/>
+			<SearchStringAddition name="ПрикрепленныеФайлыСписокСтрокаПоиска" id="80">
+				<AdditionSource>
+					<Item>ПрикрепленныеФайлыСписок</Item>
+					<Type>SearchStringRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="ПрикрепленныеФайлыСписокСтрокаПоискаКонтекстноеМеню" id="81"/>
+				<ExtendedTooltip name="ПрикрепленныеФайлыСписокСтрокаПоискаРасширеннаяПодсказка" id="82"/>
+			</SearchStringAddition>
+			<ViewStatusAddition name="ПрикрепленныеФайлыСписокСостояниеПросмотра" id="83">
+				<AdditionSource>
+					<Item>ПрикрепленныеФайлыСписок</Item>
+					<Type>ViewStatusRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="ПрикрепленныеФайлыСписокСостояниеПросмотраКонтекстноеМеню" id="84"/>
+				<ExtendedTooltip name="ПрикрепленныеФайлыСписокСостояниеПросмотраРасширеннаяПодсказка" id="85"/>
+			</ViewStatusAddition>
+			<SearchControlAddition name="ПрикрепленныеФайлыСписокУправлениеПоиском" id="86">
+				<AdditionSource>
+					<Item>ПрикрепленныеФайлыСписок</Item>
+					<Type>SearchControl</Type>
+				</AdditionSource>
+				<ContextMenu name="ПрикрепленныеФайлыСписокУправлениеПоискомКонтекстноеМеню" id="87"/>
+				<ExtendedTooltip name="ПрикрепленныеФайлыСписокУправлениеПоискомРасширеннаяПодсказка" id="88"/>
+			</SearchControlAddition>
+			<ChildItems>
+				<LabelField name="ПрикрепленныеФайлыСписокСсылка" id="89">
+					<DataPath>ПрикрепленныеФайлыСписок.Ссылка</DataPath>
+					<ContextMenu name="ПрикрепленныеФайлыСписокСсылкаКонтекстноеМеню" id="90"/>
+					<ExtendedTooltip name="ПрикрепленныеФайлыСписокСсылкаРасширеннаяПодсказка" id="91"/>
+				</LabelField>
+				<LabelField name="ПрикрепленныеФайлыСписокДатаСоздания" id="92">
+					<DataPath>ПрикрепленныеФайлыСписок.ДатаСоздания</DataPath>
+					<ContextMenu name="ПрикрепленныеФайлыСписокДатаСозданияКонтекстноеМеню" id="93"/>
+					<ExtendedTooltip name="ПрикрепленныеФайлыСписокДатаСозданияРасширеннаяПодсказка" id="94"/>
+				</LabelField>
+				<LabelField name="ПрикрепленныеФайлыСписокАвтор" id="95">
+					<DataPath>ПрикрепленныеФайлыСписок.Автор</DataPath>
+					<ContextMenu name="ПрикрепленныеФайлыСписокАвторКонтекстноеМеню" id="96"/>
+					<ExtendedTooltip name="ПрикрепленныеФайлыСписокАвторРасширеннаяПодсказка" id="97"/>
+				</LabelField>
+			</ChildItems>
+		</Table>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:DocumentObject.РасшРТ_Рекламация</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+			<SavedData>true</SavedData>
+			<UseAlways>
+				<Field>Объект.RegisterRecords</Field>
+			</UseAlways>
+		</Attribute>
+		<Attribute name="ПутьСохраненияФайла" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Путь сохранения файла</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>500</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="ПрикрепленныеФайлыСписок" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Прикрепленные файлы список</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>cfg:DynamicList</v8:Type>
+			</Type>
+			<Settings xsi:type="DynamicList">
+				<ManualQuery>true</ManualQuery>
+				<DynamicDataRead>true</DynamicDataRead>
+				<QueryText>ВЫБРАТЬ
+	СправочникРасшРТ_РекламацияПрисоединенныеФайлы.Ссылка КАК Ссылка,
+	СправочникРасшРТ_РекламацияПрисоединенныеФайлы.ПометкаУдаления КАК ПометкаУдаления,
+	СправочникРасшРТ_РекламацияПрисоединенныеФайлы.Родитель КАК Родитель,
+	СправочникРасшРТ_РекламацияПрисоединенныеФайлы.ЭтоГруппа КАК ЭтоГруппа,
+	СправочникРасшРТ_РекламацияПрисоединенныеФайлы.Наименование КАК Наименование,
+	СправочникРасшРТ_РекламацияПрисоединенныеФайлы.Автор КАК Автор,
+	СправочникРасшРТ_РекламацияПрисоединенныеФайлы.ВладелецФайла КАК ВладелецФайла,
+	СправочникРасшРТ_РекламацияПрисоединенныеФайлы.ДатаЗаема КАК ДатаЗаема,
+	СправочникРасшРТ_РекламацияПрисоединенныеФайлы.ДатаМодификацииУниверсальная КАК ДатаМодификацииУниверсальная,
+	СправочникРасшРТ_РекламацияПрисоединенныеФайлы.ДатаСоздания КАК ДатаСоздания,
+	СправочникРасшРТ_РекламацияПрисоединенныеФайлы.Зашифрован КАК Зашифрован,
+	СправочникРасшРТ_РекламацияПрисоединенныеФайлы.Изменил КАК Изменил,
+	СправочникРасшРТ_РекламацияПрисоединенныеФайлы.ИндексКартинки КАК ИндексКартинки,
+	СправочникРасшРТ_РекламацияПрисоединенныеФайлы.Описание КАК Описание,
+	СправочникРасшРТ_РекламацияПрисоединенныеФайлы.ПодписанЭП КАК ПодписанЭП,
+	СправочникРасшРТ_РекламацияПрисоединенныеФайлы.ПутьКФайлу КАК ПутьКФайлу,
+	СправочникРасшРТ_РекламацияПрисоединенныеФайлы.Размер КАК Размер,
+	СправочникРасшРТ_РекламацияПрисоединенныеФайлы.Расширение КАК Расширение,
+	СправочникРасшРТ_РекламацияПрисоединенныеФайлы.Редактирует КАК Редактирует,
+	СправочникРасшРТ_РекламацияПрисоединенныеФайлы.СтатусИзвлеченияТекста КАК СтатусИзвлеченияТекста,
+	СправочникРасшРТ_РекламацияПрисоединенныеФайлы.ТекстХранилище КАК ТекстХранилище,
+	СправочникРасшРТ_РекламацияПрисоединенныеФайлы.ТипХраненияФайла КАК ТипХраненияФайла,
+	СправочникРасшРТ_РекламацияПрисоединенныеФайлы.Том КАК Том,
+	СправочникРасшРТ_РекламацияПрисоединенныеФайлы.ФайлХранилище КАК ФайлХранилище,
+	СправочникРасшРТ_РекламацияПрисоединенныеФайлы.ХранитьВерсии КАК ХранитьВерсии,
+	СправочникРасшРТ_РекламацияПрисоединенныеФайлы.Предопределенный КАК Предопределенный,
+	СправочникРасшРТ_РекламацияПрисоединенныеФайлы.ИмяПредопределенныхДанных КАК ИмяПредопределенныхДанных
+ИЗ
+	Справочник.РасшРТ_РекламацияПрисоединенныеФайлы КАК СправочникРасшРТ_РекламацияПрисоединенныеФайлы
+ГДЕ
+	СправочникРасшРТ_РекламацияПрисоединенныеФайлы.ВладелецФайла = &amp;ВладелецФайла</QueryText>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>Ссылка</dcssch:dataPath>
+					<dcssch:field>Ссылка</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>ДатаМодификацииУниверсальная</dcssch:dataPath>
+					<dcssch:field>ДатаМодификацииУниверсальная</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>ПометкаУдаления</dcssch:dataPath>
+					<dcssch:field>ПометкаУдаления</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>Автор</dcssch:dataPath>
+					<dcssch:field>Автор</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>ПодписанЭП</dcssch:dataPath>
+					<dcssch:field>ПодписанЭП</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>Родитель</dcssch:dataPath>
+					<dcssch:field>Родитель</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>Изменил</dcssch:dataPath>
+					<dcssch:field>Изменил</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>ВладелецФайла</dcssch:dataPath>
+					<dcssch:field>ВладелецФайла</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>ЭтоГруппа</dcssch:dataPath>
+					<dcssch:field>ЭтоГруппа</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>ИндексКартинки</dcssch:dataPath>
+					<dcssch:field>ИндексКартинки</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>Наименование</dcssch:dataPath>
+					<dcssch:field>Наименование</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>ДатаЗаема</dcssch:dataPath>
+					<dcssch:field>ДатаЗаема</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>Зашифрован</dcssch:dataPath>
+					<dcssch:field>Зашифрован</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>ДатаСоздания</dcssch:dataPath>
+					<dcssch:field>ДатаСоздания</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>Описание</dcssch:dataPath>
+					<dcssch:field>Описание</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>ПутьКФайлу</dcssch:dataPath>
+					<dcssch:field>ПутьКФайлу</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>ТипХраненияФайла</dcssch:dataPath>
+					<dcssch:field>ТипХраненияФайла</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>Размер</dcssch:dataPath>
+					<dcssch:field>Размер</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>Расширение</dcssch:dataPath>
+					<dcssch:field>Расширение</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>Редактирует</dcssch:dataPath>
+					<dcssch:field>Редактирует</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>СтатусИзвлеченияТекста</dcssch:dataPath>
+					<dcssch:field>СтатусИзвлеченияТекста</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>ТекстХранилище</dcssch:dataPath>
+					<dcssch:field>ТекстХранилище</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>Том</dcssch:dataPath>
+					<dcssch:field>Том</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>ФайлХранилище</dcssch:dataPath>
+					<dcssch:field>ФайлХранилище</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>ХранитьВерсии</dcssch:dataPath>
+					<dcssch:field>ХранитьВерсии</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>Предопределенный</dcssch:dataPath>
+					<dcssch:field>Предопределенный</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>ИмяПредопределенныхДанных</dcssch:dataPath>
+					<dcssch:field>ИмяПредопределенныхДанных</dcssch:field>
+				</Field>
+				<Parameter>
+					<dcssch:name>ВладелецФайла</dcssch:name>
+					<dcssch:title xsi:type="v8:LocalStringType">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Владелец файла</v8:content>
+						</v8:item>
+					</dcssch:title>
+					<dcssch:valueType>
+						<v8:Type>cfg:DocumentRef.РасшРТ_Рекламация</v8:Type>
+					</dcssch:valueType>
+					<dcssch:value xsi:nil="true"/>
+					<dcssch:useRestriction>true</dcssch:useRestriction>
+				</Parameter>
+				<MainTable>Catalog.РасшРТ_РекламацияПрисоединенныеФайлы</MainTable>
+				<ListSettings>
+					<dcsset:filter>
+						<dcsset:viewMode>Normal</dcsset:viewMode>
+						<dcsset:userSettingID>dfcece9d-5077-440b-b6b3-45a5cb4538eb</dcsset:userSettingID>
+					</dcsset:filter>
+					<dcsset:order>
+						<dcsset:viewMode>Normal</dcsset:viewMode>
+						<dcsset:userSettingID>88619765-ccb3-46c6-ac52-38e9c992ebd4</dcsset:userSettingID>
+					</dcsset:order>
+					<dcsset:conditionalAppearance>
+						<dcsset:viewMode>Normal</dcsset:viewMode>
+						<dcsset:userSettingID>b75fecce-942b-4aed-abc9-e6a02e460fb3</dcsset:userSettingID>
+					</dcsset:conditionalAppearance>
+					<dcsset:itemsViewMode>Normal</dcsset:itemsViewMode>
+					<dcsset:itemsUserSettingID>911b6018-f537-43e8-a417-da56b22f9aec</dcsset:itemsUserSettingID>
+				</ListSettings>
+			</Settings>
+		</Attribute>
+	</Attributes>
+	<Commands>
+		<Command name="ВыгрузитьВXLSX" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Выгрузить в Excel</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Выгрузить в XLSX</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Picture>
+				<xr:Ref>CommonPicture.РасшРТ_Excel</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+			</Picture>
+			<Action>КомандаВыгрузкаXLSX</Action>
+		</Command>
+		<Command name="ВыбратьПутьСохранения" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Выбрать путь</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Выбрать путь для сохранения файла</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ВыбратьПутьСохраненияФайла</Action>
+		</Command>
+	</Commands>
+</Form>

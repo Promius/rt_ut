@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.18">
+	<DefinedType uuid="583b78f0-4c6f-4ae7-b52c-6fa3a89955de">
+		<InternalInfo>
+			<xr:GeneratedType name="DefinedType.ВладелецПрисоединенныхФайловОбъект" category="DefinedType">
+				<xr:TypeId>9012f9a9-7984-48bf-a95b-44fc8e603bd9</xr:TypeId>
+				<xr:ValueId>8fb1df05-7cfa-4789-bf04-3eaa3ecb890b</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:PropertyState>
+				<xr:Property>Type</xr:Property>
+				<xr:State>MultiState</xr:State>
+			</xr:PropertyState>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ВладелецПрисоединенныхФайловОбъект</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>1a9177fe-6699-42b3-9588-eed9c6008c2d</ExtendedConfigurationObject>
+			<Type xsi:type="xr:ExtendedProperty">
+				<xr:ExtendValue xsi:type="v8:TypeDescription">
+					<v8:Type>cfg:DocumentObject.РасшРТ_Рекламация</v8:Type>
+					<v8:TypeId>04b6a465-6349-4e8c-818a-9b470f1e5d96</v8:TypeId>
+					<v8:TypeId>15c5e871-8e60-4627-aadb-f64e750c8003</v8:TypeId>
+					<v8:TypeId>167b76b3-5da7-4239-b3a3-c76970ccbfc5</v8:TypeId>
+					<v8:TypeId>201b8351-68be-436b-94ee-80831df28205</v8:TypeId>
+					<v8:TypeId>395da771-a8d9-4066-a17b-6e0ae887af26</v8:TypeId>
+					<v8:TypeId>4a670c5f-960b-4b36-b587-59bcea4d8449</v8:TypeId>
+					<v8:TypeId>4f009e56-328c-446d-8a7c-ec74c84c7962</v8:TypeId>
+					<v8:TypeId>4ff7da83-b0c9-4436-9f87-f5f054245b47</v8:TypeId>
+					<v8:TypeId>5dc7311d-af29-4fab-aac6-7fcfd4d9f10c</v8:TypeId>
+					<v8:TypeId>5e6fcb7b-e7c2-43f0-a22b-14f03cf9c082</v8:TypeId>
+					<v8:TypeId>61b3fdf2-8b70-418c-af2b-6a8532ec2999</v8:TypeId>
+					<v8:TypeId>700c3a70-b865-4e2c-90c3-a1cdf90c0221</v8:TypeId>
+					<v8:TypeId>7cadcada-d50d-44a6-ac0c-7220499fd78a</v8:TypeId>
+					<v8:TypeId>81c6541f-0489-4957-bede-5eabce2ac12f</v8:TypeId>
+					<v8:TypeId>89508e48-ae7e-4c24-9900-3f4f7c3d0255</v8:TypeId>
+					<v8:TypeId>9325a547-f48a-4735-8699-76bf161653ae</v8:TypeId>
+					<v8:TypeId>94d1fd65-2f3e-4476-ac5d-0ccfd7c2416a</v8:TypeId>
+					<v8:TypeId>99064a96-b256-4dce-9d1e-3f3884f560cf</v8:TypeId>
+					<v8:TypeId>9e90fc59-8146-4b48-8a5d-aba0007c440a</v8:TypeId>
+					<v8:TypeId>a223fdb8-7d24-4a33-845a-3039647f58ff</v8:TypeId>
+					<v8:TypeId>a5b1f526-0d70-4732-8753-9b3d7b2bd1ae</v8:TypeId>
+					<v8:TypeId>b0d25942-bf01-404f-8947-382fff70d523</v8:TypeId>
+					<v8:TypeId>b3245d95-cb77-46a2-b658-259f9abc0fc8</v8:TypeId>
+					<v8:TypeId>c49b11cf-56da-4bca-9337-993740b9b299</v8:TypeId>
+					<v8:TypeId>d5e23eda-4410-4bc1-85f1-e5848d1b8ee0</v8:TypeId>
+					<v8:TypeId>db719ff3-91c0-4d23-8d18-afa5fc3221cf</v8:TypeId>
+					<v8:TypeId>e495743b-13f8-4089-af07-9ae3ad73dd85</v8:TypeId>
+					<v8:TypeId>ed19ddcf-fed2-4192-bd74-97e311e2b4ee</v8:TypeId>
+					<v8:TypeId>ef0d05ab-fe3f-41bd-872b-2c4a330e89d6</v8:TypeId>
+					<v8:TypeId>f7a637ec-e2d4-4978-8df5-528610d864a5</v8:TypeId>
+					<v8:TypeId>fa113c71-9321-43c6-87b2-5b129c32906d</v8:TypeId>
+					<v8:TypeId>fc7783a4-1d55-454b-a003-7af72e25bf56</v8:TypeId>
+					<v8:TypeId>fe16d129-9666-4849-9b44-deef3c0b17fc</v8:TypeId>
+				</xr:ExtendValue>
+			</Type>
+		</Properties>
+	</DefinedType>
+</MetaDataObject>

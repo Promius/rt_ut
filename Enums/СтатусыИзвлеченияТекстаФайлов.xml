@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.18">
+	<Enum uuid="1b9daf00-05ac-4ee0-aad4-d7868b1f6259">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.СтатусыИзвлеченияТекстаФайлов" category="Ref">
+				<xr:TypeId>65a72bfb-f8b9-43b8-be0a-4ada2022cdc9</xr:TypeId>
+				<xr:ValueId>f0c22ae8-1d2f-4f8b-9207-0ad778e8ae9a</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.СтатусыИзвлеченияТекстаФайлов" category="Manager">
+				<xr:TypeId>4ec6ba74-da47-4072-b660-2c7e38608137</xr:TypeId>
+				<xr:ValueId>0e0098b5-6c9d-4639-af63-9a377c78c18a</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.СтатусыИзвлеченияТекстаФайлов" category="List">
+				<xr:TypeId>29781665-a1b5-4da7-901d-040e6de86846</xr:TypeId>
+				<xr:ValueId>1b12335d-a962-4046-92af-cb632b145200</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>СтатусыИзвлеченияТекстаФайлов</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>ecd8772d-e33f-426f-a87a-e28bd94d5fdf</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects/>
+	</Enum>
+</MetaDataObject>
