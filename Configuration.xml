@@ -87,6 +87,7 @@
 			<Catalog>ХранилищеДвоичныхДанных</Catalog>
 			<Document>ЗаказКлиента</Document>
 			<Document>РасшРТ_Рекламация</Document>
+			<Document>ТранспортнаяНакладная</Document>
 			<Enum>СпособыДоставки</Enum>
 			<Enum>ТипыНалогообложенияНДС</Enum>
 			<Enum>СтатусыДействияВидовЦен</Enum>
