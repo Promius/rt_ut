@@ -1,26 +1,26 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.18">
-	<Document uuid="21e7452e-f743-4711-ba29-0431bdede5b8">
+	<Document uuid="5c9d6025-9bc9-4aa1-8c6c-0ccc1287ac2f">
 		<InternalInfo>
 			<xr:GeneratedType name="DocumentObject.ТранспортнаяНакладная" category="Object">
-				<xr:TypeId>21c219e5-de48-418e-82f8-eb95bcbc22af</xr:TypeId>
-				<xr:ValueId>2d268478-0b6a-4573-89e5-70b43774f315</xr:ValueId>
+				<xr:TypeId>1769eec5-3ba6-43d5-8146-8f6ebe6d62ee</xr:TypeId>
+				<xr:ValueId>acaed7b3-a7f7-411a-8094-e6acb23bf784</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="DocumentRef.ТранспортнаяНакладная" category="Ref">
-				<xr:TypeId>c320fee5-11b5-4b12-a234-2e4cf4581565</xr:TypeId>
-				<xr:ValueId>2eff4959-5fd7-473e-8b23-6e570f93cbf3</xr:ValueId>
+				<xr:TypeId>0858d3c8-0f75-4235-bc32-c9324eb64581</xr:TypeId>
+				<xr:ValueId>1e143368-0eac-40d6-8ee9-82a25ba929a0</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="DocumentSelection.ТранспортнаяНакладная" category="Selection">
-				<xr:TypeId>78f57958-b1f7-48e0-a307-647452c045d6</xr:TypeId>
-				<xr:ValueId>4b80bcec-691c-4384-ba20-ecec0a2e8ec9</xr:ValueId>
+				<xr:TypeId>e59cf2f9-8c3e-44ca-a52f-01350fcef2e0</xr:TypeId>
+				<xr:ValueId>4ec93c36-87a3-4d8d-830a-7bc9095ec90a</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="DocumentList.ТранспортнаяНакладная" category="List">
-				<xr:TypeId>b8dfaa48-038d-41df-b5bd-e95cd96343f9</xr:TypeId>
-				<xr:ValueId>7b8c52d7-e15d-413c-ac83-3278855ba64f</xr:ValueId>
+				<xr:TypeId>e6101ada-dae7-4663-b828-3e3cd0d89cc8</xr:TypeId>
+				<xr:ValueId>e46ae6e2-41fd-46c6-b273-7abfab448943</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="DocumentManager.ТранспортнаяНакладная" category="Manager">
-				<xr:TypeId>b13a6744-f058-448e-af0b-cd85a9ade472</xr:TypeId>
-				<xr:ValueId>f72afdcc-143b-4a9d-93c2-05f7665a2e7f</xr:ValueId>
+				<xr:TypeId>e59a4c17-199e-4937-a07f-e7c02553cb74</xr:TypeId>
+				<xr:ValueId>bfb3f6c0-402b-4b6b-8ecc-0cbf95043fbd</xr:ValueId>
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>

@@ -1,128 +1,17 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <ConfigDumpInfo xmlns="http://v8.1c.ru/8.3/xcf/dumpinfo" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" format="Hierarchical" version="2.18">
 	<ConfigVersions>
-		<Metadata name="Catalog.Пользователи" id="2a79a1b7-6cb3-441d-a811-fe6094a22210" configVersion="b7c58b6cb1b0fb37f7b66964387645f9fcdf8550"/>
-		<Metadata name="Catalog.РасшРТ_РекламацияПрисоединенныеФайлы" id="26694ad0-4be8-4bdc-800b-dbec0fb06ea1" configVersion="73547df641611707bf5ad191c49e947171a331a4">
-			<Metadata name="Catalog.РасшРТ_РекламацияПрисоединенныеФайлы.Attribute.Описание" id="0c225e13-306e-4424-8e26-3d44cf7f99a3"/>
-			<Metadata name="Catalog.РасшРТ_РекламацияПрисоединенныеФайлы.Attribute.Автор" id="1e1b6a6c-b1f9-4ed2-a2c1-de5037ce8533"/>
-			<Metadata name="Catalog.РасшРТ_РекламацияПрисоединенныеФайлы.Attribute.ФайлХранилище" id="34d76689-200e-4529-9dcd-a5d009484f48"/>
-			<Metadata name="Catalog.РасшРТ_РекламацияПрисоединенныеФайлы.Attribute.СтатусИзвлеченияТекста" id="5b6b78bd-cda0-4722-8b6b-f705d926545f"/>
-			<Metadata name="Catalog.РасшРТ_РекламацияПрисоединенныеФайлы.Attribute.ТекстХранилище" id="6251ed2c-0a16-496d-9cb9-664d5cd124ef"/>
-			<Metadata name="Catalog.РасшРТ_РекламацияПрисоединенныеФайлы.Attribute.ХранитьВерсии" id="7a11c9d0-3084-4bf6-8d3c-e0fa559195b7"/>
-			<Metadata name="Catalog.РасшРТ_РекламацияПрисоединенныеФайлы.Attribute.ПодписанЭП" id="7fc4b432-20fe-4ab1-8904-0502eb5e1a8d"/>
-			<Metadata name="Catalog.РасшРТ_РекламацияПрисоединенныеФайлы.Attribute.Размер" id="a6066e40-657c-45a7-8a95-37c4ccca45ea"/>
-			<Metadata name="Catalog.РасшРТ_РекламацияПрисоединенныеФайлы.Attribute.ДатаСоздания" id="a9728ded-457f-4338-8015-01f4970e923c"/>
-			<Metadata name="Catalog.РасшРТ_РекламацияПрисоединенныеФайлы.Attribute.Том" id="ad8dfed4-8fa8-49fb-80f6-f55771ba99b2"/>
-			<Metadata name="Catalog.РасшРТ_РекламацияПрисоединенныеФайлы.Attribute.Зашифрован" id="b0ab6e15-6c14-4112-9157-29814c19c46b"/>
-			<Metadata name="Catalog.РасшРТ_РекламацияПрисоединенныеФайлы.Attribute.Изменил" id="bb678f7c-00b9-46b4-99f8-83daf0588fd5"/>
-			<Metadata name="Catalog.РасшРТ_РекламацияПрисоединенныеФайлы.Attribute.ДатаМодификацииУниверсальная" id="c160d763-16dc-442b-a5a3-0c2121091a83"/>
-			<Metadata name="Catalog.РасшРТ_РекламацияПрисоединенныеФайлы.Attribute.ИндексКартинки" id="c984026d-ad29-4652-a4ed-39c927bf85e4"/>
-			<Metadata name="Catalog.РасшРТ_РекламацияПрисоединенныеФайлы.Attribute.ВладелецФайла" id="cc2301eb-b944-45f9-b20c-6f2eb99b170a"/>
-			<Metadata name="Catalog.РасшРТ_РекламацияПрисоединенныеФайлы.Attribute.ТипХраненияФайла" id="d2439be2-6182-424c-8f17-9f973f6f90cd"/>
-			<Metadata name="Catalog.РасшРТ_РекламацияПрисоединенныеФайлы.Attribute.ПутьКФайлу" id="de27c602-5db4-453d-8569-482816d8d256"/>
-			<Metadata name="Catalog.РасшРТ_РекламацияПрисоединенныеФайлы.Attribute.Расширение" id="e12836e6-61ac-41a6-ba86-4c7a3fc350fc"/>
-			<Metadata name="Catalog.РасшРТ_РекламацияПрисоединенныеФайлы.Attribute.ДатаЗаема" id="ecdba39b-7bca-4abd-92e7-467e6c76b1e9"/>
-			<Metadata name="Catalog.РасшРТ_РекламацияПрисоединенныеФайлы.Attribute.Редактирует" id="f67ea155-640d-43c1-998d-7aa7ddcf1554"/>
-		</Metadata>
-		<Metadata name="Catalog.РасшРТ_РекламацияПрисоединенныеФайлы.ManagerModule" id="26694ad0-4be8-4bdc-800b-dbec0fb06ea1.3" configVersion="0556dd5f8e9eab0fcf74bca0cbf71432cad44941"/>
-		<Metadata name="Catalog.РасшРТ_РекламацияПрисоединенныеФайлы.ObjectModule" id="26694ad0-4be8-4bdc-800b-dbec0fb06ea1.0" configVersion="0a5bb5a167553b0d64500d56c1887d90e3507df5"/>
-		<Metadata name="Catalog.ТомаХраненияФайлов" id="f070e4ba-0ed3-4d87-93d7-019e5dc7638b" configVersion="ac53bd283c1396c2431f83c6044a118e46240b82"/>
-		<Metadata name="Catalog.ХранилищеДвоичныхДанных" id="964d1630-cabb-435c-8b12-a0ab996d7090" configVersion="7b36c90dda7fd5667f525acaa6bc0853fbacb9c7"/>
 		<Metadata name="CommonPicture.ЗаполнитьПоШаблону" id="abbc8c50-b7b2-4fb8-b168-f7d7895cfbfa" configVersion="d3634355a8406fc142591b3bd427886d6771dab5"/>
 		<Metadata name="CommonPicture.ЗаполнитьФорму" id="b992733a-39bf-4ce4-95e2-4db26e5a6e52" configVersion="5fefb293b6554cadd0f53146add2d47d65955bcf"/>
 		<Metadata name="CommonPicture.Набор" id="1088eda6-9086-4a82-bc25-8fd13b27b9b9" configVersion="ffd9fc4bf459e7f1c6e1cbe0b272ca32370c6e5d"/>
 		<Metadata name="CommonPicture.Наборы" id="388694f6-134d-4514-b587-b4735e8161e7" configVersion="e05015a7db71aed1213e652bcece04e76f972a90"/>
 		<Metadata name="CommonPicture.Отчеты" id="e027e43d-cd70-40ba-8aab-87c2f832d6a2" configVersion="a89060fd55fc08ce4c7b8865bad714aac61f82ac"/>
-		<Metadata name="CommonPicture.РасшРТ_Excel" id="f82df1e8-aa3a-46d4-9965-466e1b9821fe" configVersion="3a2a83e4baf5f843ef2ce1b31ca4965e64650892"/>
-		<Metadata name="CommonPicture.РасшРТ_Excel.Picture" id="f82df1e8-aa3a-46d4-9965-466e1b9821fe.0" configVersion="d855b463cde0bc70a3368632b57ea0aa7952ac7d"/>
-<<<<<<< HEAD
-		<Metadata name="Configuration.ТД_РусТорг" id="638c1f57-457f-4887-a276-22eeb492284b" configVersion="efbbfd616f7d77099678a9d74c6b46eca7aa3219"/>
-=======
-		<Metadata name="Configuration.ТД_РусТорг" id="638c1f57-457f-4887-a276-22eeb492284b" configVersion="f1bfe79c6f2aaecb70509e6d3f9e6f243c4fa9d3"/>
->>>>>>> local
-		<Metadata name="DefinedType.ВладелецПрисоединенныхФайлов" id="71e2fa1a-f496-444e-816d-05c675b350ac" configVersion="80b3b8c3b0f5d52177f7abee0234292909f64499"/>
-		<Metadata name="DefinedType.ВладелецПрисоединенныхФайловОбъект" id="583b78f0-4c6f-4ae7-b52c-6fa3a89955de" configVersion="4c32699ee24dc0041aa2ba10d14a9c7d767a3128"/>
-		<Metadata name="DefinedType.ПрисоединенныйФайл" id="41659f4b-4db3-4672-96d7-3727e2586c88" configVersion="721494d5955b2c2cc6923830a7195a553c798968"/>
-		<Metadata name="DefinedType.ПрисоединенныйФайлОбъект" id="cb5e0212-61dc-4273-918c-377fd9484321" configVersion="b83dd4a792548e4f90f0dba7f790166c1acd8807"/>
+		<Metadata name="Configuration.ТД_РусТорг" id="638c1f57-457f-4887-a276-22eeb492284b" configVersion="3342e4dfe012b476e7f7b0517b9e8b46cd4eb787"/>
 		<Metadata name="Document.ЗаказКлиента" id="a4354e1a-52c5-4d22-9f70-b9608cce26cd" configVersion="9c446cbb47f1ba84809b0f75979827afbd3f026c"/>
 		<Metadata name="Document.ЗаказКлиента.Form.ФормаДокумента" id="32d23475-e4c9-4f2b-a257-3d64dab59651" configVersion="f1a5613a78df2d38ce8c5bc5795d0eafc62575c0"/>
-		<Metadata name="Document.ЗаказКлиента.Form.ФормаДокумента.Form" id="32d23475-e4c9-4f2b-a257-3d64dab59651.0" configVersion="cfceeb3d0ced28c905a2d94f5ec87f8e556b8483"/>
-		<Metadata name="Document.РасшРТ_Рекламация" id="dc72a49a-2ace-4310-a78a-3591ca1cbecf" configVersion="023ee3cb7f1ef9a510345da1ffdb86b15b8609c1">
-			<Metadata name="Document.РасшРТ_Рекламация.Attribute.DOT" id="11111111-1111-1111-1111-111111111111"/>
-			<Metadata name="Document.РасшРТ_Рекламация.Attribute.Контрагент" id="11111111-aaaa-1111-bbbb-111111111111"/>
-			<Metadata name="Document.РасшРТ_Рекламация.Attribute.ОГП" id="22222222-2222-2222-2222-222222222222"/>
-			<Metadata name="Document.РасшРТ_Рекламация.Attribute.Номенклатура" id="22222222-bbbb-2222-cccc-222222222222"/>
-			<Metadata name="Document.РасшРТ_Рекламация.Attribute.Статус" id="33333333-cccc-3333-dddd-333333333333"/>
-			<Metadata name="Document.РасшРТ_Рекламация.Attribute.ПроцентКомпенсации" id="55555555-eeee-5555-ffff-555555555555"/>
-			<Metadata name="Document.РасшРТ_Рекламация.Attribute.Комментарий" id="66666666-ffff-6666-aaaa-666666666666"/>
-			<Metadata name="Document.РасшРТ_Рекламация.Attribute.МенеджерПоПродажам" id="77777777-aaaa-7777-bbbb-777777777777"/>
-			<Metadata name="Document.РасшРТ_Рекламация.Attribute.МенеджерПоРекламациям" id="88888888-bbbb-8888-cccc-888888888888"/>
-			<Metadata name="Document.РасшРТ_Рекламация.Attribute.Согласовано" id="99999999-cccc-9999-dddd-999999999999"/>
-			<Metadata name="Document.РасшРТ_Рекламация.Attribute.Артикул" id="aaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaaa"/>
-			<Metadata name="Document.РасшРТ_Рекламация.TabularSection.ПрисоединенныеФайлы" id="aaaaaaaa-bbbb-cccc-dddd-eeeeeeeeeeee"/>
-			<Metadata name="Document.РасшРТ_Рекламация.Attribute.Марка" id="bbbbbbbb-bbbb-bbbb-bbbb-bbbbbbbbbbbb"/>
-			<Metadata name="Document.РасшРТ_Рекламация.Attribute.Типоразмер" id="cccccccc-cccc-cccc-cccc-cccccccccccc"/>
-			<Metadata name="Document.РасшРТ_Рекламация.Attribute.РисунокПротектора" id="dddddddd-dddd-dddd-dddd-dddddddddddd"/>
-			<Metadata name="Document.РасшРТ_Рекламация.Attribute.СерийныйНомер" id="eeeeeeee-eeee-eeee-eeee-eeeeeeeeeeee"/>
-			<Metadata name="Document.РасшРТ_Рекламация.TabularSection.ПрисоединенныеФайлы.Attribute.Файл" id="ffffffff-0000-1111-2222-333333333333"/>
-			<Metadata name="Document.РасшРТ_Рекламация.Attribute.Нормослойность" id="ffffffff-ffff-ffff-ffff-ffffffffffff"/>
-		</Metadata>
-		<Metadata name="Document.РасшРТ_Рекламация.Form.ФормаДокумента" id="963ab37c-05d0-4815-9617-e9a87ceb1768" configVersion="1e8c86d10ba455cb2d20111c554550b497c07262"/>
-		<Metadata name="Document.РасшРТ_Рекламация.Form.ФормаДокумента.Form" id="963ab37c-05d0-4815-9617-e9a87ceb1768.0" configVersion="e1c052e4bc06014ea722a4bbcb93b910409c1ade"/>
-		<Metadata name="Document.РасшРТ_Рекламация.Template.Content_Types_xml" id="0fae3719-4f36-4e78-a876-bf58c84ed3ba" configVersion="9057548c07566f743c85cfc7a7587c3e27b226e3"/>
-		<Metadata name="Document.РасшРТ_Рекламация.Template.Content_Types_xml.Template" id="0fae3719-4f36-4e78-a876-bf58c84ed3ba.0" configVersion="12ca6273b74e4001b16937d82469788fa60918a6"/>
-		<Metadata name="Document.РасшРТ_Рекламация.Template._rels_rels" id="41897b20-0d6e-4ccb-b12e-fa708679831c" configVersion="1cd21f01187bde8564688cbeffc9af82daea0c5b"/>
-		<Metadata name="Document.РасшРТ_Рекламация.Template._rels_rels.Template" id="41897b20-0d6e-4ccb-b12e-fa708679831c.0" configVersion="f64904dcfe8e7e0c57fb44c73e5db0b8f99d2c82"/>
-		<Metadata name="Document.РасшРТ_Рекламация.Template.docProps_app_xml" id="bf037cf3-9c9f-40dd-a72d-84ba69525960" configVersion="8645339ab9315b59c98b0565cfe03cd3650cbbb0"/>
-		<Metadata name="Document.РасшРТ_Рекламация.Template.docProps_app_xml.Template" id="bf037cf3-9c9f-40dd-a72d-84ba69525960.0" configVersion="ab5be1d142c2f4ea538946b86b4fef07b82507f5"/>
-		<Metadata name="Document.РасшРТ_Рекламация.Template.docProps_core_xml" id="ae73f320-7f15-4b2e-bcd4-9aab9e7e3bf1" configVersion="1da84dacdf320bd1baba3f0be07d2cce25216b10"/>
-		<Metadata name="Document.РасшРТ_Рекламация.Template.docProps_core_xml.Template" id="ae73f320-7f15-4b2e-bcd4-9aab9e7e3bf1.0" configVersion="677609d5d241f083aca78d3ed60aabc129ff97f1"/>
-		<Metadata name="Document.РасшРТ_Рекламация.Template.docProps_custom_xml" id="f7bfe757-6590-4010-93a2-65d3a13a16b7" configVersion="a8abfdf9d0bd1e197b250f359c8f3d02b90e9403"/>
-		<Metadata name="Document.РасшРТ_Рекламация.Template.docProps_custom_xml.Template" id="f7bfe757-6590-4010-93a2-65d3a13a16b7.0" configVersion="460e5813a0bbe549421d45264becbc840ee39523"/>
-		<Metadata name="Document.РасшРТ_Рекламация.Template.xl_drawings_drawing1_xml" id="40939aad-fd38-4862-8c3f-491aae324db2" configVersion="9246a93d421c4f35a731cc42f69593af48a8a123"/>
-		<Metadata name="Document.РасшРТ_Рекламация.Template.xl_drawings_drawing1_xml.Template" id="40939aad-fd38-4862-8c3f-491aae324db2.0" configVersion="d88f26086aa8b73020831174cc1cc897ea226e62"/>
-		<Metadata name="Document.РасшРТ_Рекламация.Template.xl_drawings_drawing2_xml" id="b2a3c4d5-e6f7-4a89-b012-345678901234" configVersion="2fec7efec4b591e1df02609a2b262a553fec4033"/>
-		<Metadata name="Document.РасшРТ_Рекламация.Template.xl_drawings_drawing2_xml.Template" id="b2a3c4d5-e6f7-4a89-b012-345678901234.0" configVersion="946e2cf1b689a12754ed4ed39816ee8e78d55f68"/>
-		<Metadata name="Document.РасшРТ_Рекламация.Template.xl_drawings_rels_drawing1_xml_rels" id="095bd085-b98a-4562-9597-cbdbe887f99d" configVersion="4dcc0dbcbd0f664214d981173a0d747fd1d7ee5c"/>
-		<Metadata name="Document.РасшРТ_Рекламация.Template.xl_drawings_rels_drawing1_xml_rels.Template" id="095bd085-b98a-4562-9597-cbdbe887f99d.0" configVersion="24db7129319b6d8c03595bb8f104e47af20534fd"/>
-		<Metadata name="Document.РасшРТ_Рекламация.Template.xl_drawings_rels_drawing2_xml_rels" id="c3d4e5f6-7890-4b12-a345-678901234567" configVersion="fe92094c30e8743aa52a1223fcad99ba92772bf5"/>
-		<Metadata name="Document.РасшРТ_Рекламация.Template.xl_drawings_rels_drawing2_xml_rels.Template" id="c3d4e5f6-7890-4b12-a345-678901234567.0" configVersion="f10d80c3d758c074bf87f8a0bd39d019a9dbc815"/>
-		<Metadata name="Document.РасшРТ_Рекламация.Template.xl_media_image1_png" id="750e241e-38ea-4bbe-bccc-7d2f24c72e60" configVersion="e5c51e3f6fc3fa6b821e5e2f9f2b17294358773c"/>
-		<Metadata name="Document.РасшРТ_Рекламация.Template.xl_media_image1_png.Template" id="750e241e-38ea-4bbe-bccc-7d2f24c72e60.0" configVersion="4c597c9fa40fb49d7d4ffb3cca50114687932eda"/>
-		<Metadata name="Document.РасшРТ_Рекламация.Template.xl_printerSettings_printerSettings1_bin" id="b7e3eeff-7bd2-40a9-bbbd-6e1e2871e962" configVersion="089b189267fbf5a9fff1aa188b8997c662731365"/>
-		<Metadata name="Document.РасшРТ_Рекламация.Template.xl_printerSettings_printerSettings1_bin.Template" id="b7e3eeff-7bd2-40a9-bbbd-6e1e2871e962.0" configVersion="3edd0db4479b52ae96ff6989848ee16f247083cf"/>
-		<Metadata name="Document.РасшРТ_Рекламация.Template.xl_rels_workbook_xml_rels" id="49c4c241-e474-471e-ae13-57d365914eb5" configVersion="c0bdd988fd98c259deaa0732c6bcf73368927ce6"/>
-		<Metadata name="Document.РасшРТ_Рекламация.Template.xl_rels_workbook_xml_rels.Template" id="49c4c241-e474-471e-ae13-57d365914eb5.0" configVersion="0575a70330e9264ef2f0843c70c45cbcd3a51178"/>
-		<Metadata name="Document.РасшРТ_Рекламация.Template.xl_rels_xml_rels" id="7b8aeb44-606d-4d51-82bc-7d2910b8e84a" configVersion="204ddaef75591ffc8da8305282282e0f3a624413"/>
-		<Metadata name="Document.РасшРТ_Рекламация.Template.xl_rels_xml_rels.Template" id="7b8aeb44-606d-4d51-82bc-7d2910b8e84a.0" configVersion="0575a70330e9264ef2f0843c70c45cbcd3a51178"/>
-		<Metadata name="Document.РасшРТ_Рекламация.Template.xl_sharedStrings_xml" id="d8de60ed-0c0a-4d8c-b1dd-8d273940d5f3" configVersion="7c885c8e728e33ad66eb79d277f783727d67c4ff"/>
-		<Metadata name="Document.РасшРТ_Рекламация.Template.xl_sharedStrings_xml.Template" id="d8de60ed-0c0a-4d8c-b1dd-8d273940d5f3.0" configVersion="be3b042c1a11e0f8177f75058aaac7c8f019500d"/>
-		<Metadata name="Document.РасшРТ_Рекламация.Template.xl_styles_xml" id="f0826161-e83d-40e6-bc43-183cefa163c5" configVersion="81f7d58de9b51a6fffd6c5afa5058d2ade429105"/>
-		<Metadata name="Document.РасшРТ_Рекламация.Template.xl_styles_xml.Template" id="f0826161-e83d-40e6-bc43-183cefa163c5.0" configVersion="c8e6a46a0b0afe381c1dcbe3f575bd47786effa9"/>
-		<Metadata name="Document.РасшРТ_Рекламация.Template.xl_theme_theme1_xml" id="9e7cc4d2-9bb9-4a99-b60e-7133395c5bbc" configVersion="853ce368618d69f1fe453634370203a9815021dc"/>
-		<Metadata name="Document.РасшРТ_Рекламация.Template.xl_theme_theme1_xml.Template" id="9e7cc4d2-9bb9-4a99-b60e-7133395c5bbc.0" configVersion="4de011420dfdcdbfd214a812831d1295ab193f54"/>
-		<Metadata name="Document.РасшРТ_Рекламация.Template.xl_workbook_xml" id="1fe802f4-2be6-4627-ba73-f668be2cef8d" configVersion="4d1bb07eef62bf51618a3e69cf58d9d9aac79b33"/>
-		<Metadata name="Document.РасшРТ_Рекламация.Template.xl_workbook_xml.Template" id="1fe802f4-2be6-4627-ba73-f668be2cef8d.0" configVersion="14d727d2cf30037f04e5500667646181405594cd"/>
-		<Metadata name="Document.РасшРТ_Рекламация.Template.xl_worksheets_rels_sheet1_xml_rels" id="9b42ea24-f7d8-4040-a777-3aba38e61465" configVersion="8e6c514c0117cd5a1792225a4e92bc54bb0bc021"/>
-		<Metadata name="Document.РасшРТ_Рекламация.Template.xl_worksheets_rels_sheet1_xml_rels.Template" id="9b42ea24-f7d8-4040-a777-3aba38e61465.0" configVersion="327aaa0f94a66b69d31469048e8cf464fa12060e"/>
-		<Metadata name="Document.РасшРТ_Рекламация.Template.xl_worksheets_rels_sheet2_xml_rels" id="d4e5f678-9012-4c34-b567-890123456789" configVersion="94f3f7bdb6d61d1afb3f19585b7ddf215d0b0faf"/>
-		<Metadata name="Document.РасшРТ_Рекламация.Template.xl_worksheets_rels_sheet2_xml_rels.Template" id="d4e5f678-9012-4c34-b567-890123456789.0" configVersion="81905e99995b7326f31fb3dffcb32579a0968f91"/>
-		<Metadata name="Document.РасшРТ_Рекламация.Template.xl_worksheets_sheet1_xml" id="8e9b1530-069e-4da4-89d1-b3dd24b73d6a" configVersion="c84131fe5d83a1ff6de62241e5c75e049a112a20"/>
-		<Metadata name="Document.РасшРТ_Рекламация.Template.xl_worksheets_sheet1_xml.Template" id="8e9b1530-069e-4da4-89d1-b3dd24b73d6a.0" configVersion="01bedce568445702adbcd1404b85160652bad338"/>
-		<Metadata name="Document.РасшРТ_Рекламация.Template.xl_worksheets_sheet2_xml" id="3713dccc-d605-4916-81e3-1802b5c5a5c4" configVersion="cc68a2e5c1c717a58ef662c3178dbc0bba250e1d"/>
-		<Metadata name="Document.РасшРТ_Рекламация.Template.xl_worksheets_sheet2_xml.Template" id="3713dccc-d605-4916-81e3-1802b5c5a5c4.0" configVersion="03c593434ab82d88c06a023cb6d6d0c8d8dd664c"/>
-<<<<<<< HEAD
-		<Metadata name="Document.ТранспортнаяНакладная" id="21e7452e-f743-4711-ba29-0431bdede5b8" configVersion="94b552c4b41dac548030a502f90f4e9559c91d77"/>
-		<Metadata name="Document.ТранспортнаяНакладная.ManagerModule" id="21e7452e-f743-4711-ba29-0431bdede5b8.2" configVersion="caf7c0c2a976cfa65a99edf70c334cb68b9f9ce8"/>
-=======
->>>>>>> local
-		<Metadata name="Enum.РасшРТ_СтатусыРекламации" id="a1b2c3d4-e5f6-7890-abcd-ef1234567890" configVersion="60b7c0715e55d80af08e9bcd9dadfa8dc50f2263">
-			<Metadata name="Enum.РасшРТ_СтатусыРекламации.EnumValue.ОжидаетПроверки" id="11111111-1111-1111-1111-111111111111"/>
-			<Metadata name="Enum.РасшРТ_СтатусыРекламации.EnumValue.Отправлено" id="22222222-2222-2222-2222-222222222222"/>
-			<Metadata name="Enum.РасшРТ_СтатусыРекламации.EnumValue.ОтветПолучен" id="33333333-3333-3333-3333-333333333333"/>
-			<Metadata name="Enum.РасшРТ_СтатусыРекламации.EnumValue.Согласовано" id="44444444-4444-4444-4444-444444444444"/>
-			<Metadata name="Enum.РасшРТ_СтатусыРекламации.EnumValue.Отклонено" id="55555555-5555-5555-5555-555555555555"/>
-		</Metadata>
+		<Metadata name="Document.ЗаказКлиента.Form.ФормаДокумента.Form" id="32d23475-e4c9-4f2b-a257-3d64dab59651.0" configVersion="fee284158229b332eda43cace2513257b9b2ef1c"/>
+		<Metadata name="Document.ТранспортнаяНакладная" id="5c9d6025-9bc9-4aa1-8c6c-0ccc1287ac2f" configVersion="a14f9225591277301df2a5c7f3c8e27a07166aed"/>
+		<Metadata name="Document.ТранспортнаяНакладная.ManagerModule" id="5c9d6025-9bc9-4aa1-8c6c-0ccc1287ac2f.2" configVersion="56448191b515749b6480a667d2d6ccbf6bdc2157"/>
 		<Metadata name="Enum.СпособыДоставки" id="6329adbc-619a-4f90-bdad-5e11bce4b228" configVersion="bc2f13e253a650d9a1bcdf2514a8c088f2ecdc95">
 			<Metadata name="Enum.СпособыДоставки.EnumValue.СиламиПеревозчика" id="250977a4-d57e-4cb2-a68b-dc852a295c58"/>
 			<Metadata name="Enum.СпособыДоставки.EnumValue.КПолучателюОпределяетСлужбаДоставки" id="31aa4dae-71ba-4bff-8015-0a3f7b1f73d6"/>
@@ -133,21 +22,17 @@
 		<Metadata name="Enum.СтатусыДействияВидовЦен" id="c0ac342b-9f1b-45f9-8bfc-3161f1862c1f" configVersion="9e54d14288f748b933cdd75d88824a47ce2102e2">
 			<Metadata name="Enum.СтатусыДействияВидовЦен.EnumValue.Действует" id="7e7b6a69-71d0-4317-88fc-0022a70914b3"/>
 		</Metadata>
-		<Metadata name="Enum.СтатусыИзвлеченияТекстаФайлов" id="1b9daf00-05ac-4ee0-aad4-d7868b1f6259" configVersion="e34cd5569bdb1fad36590d36b040aaae7bc42f34"/>
 		<Metadata name="Enum.ТипыНалогообложенияНДС" id="8364165e-8849-40f4-9885-02dee120efbe" configVersion="9008b4eb98e8a87c83b1ff8cb9d90633356e1f99">
 			<Metadata name="Enum.ТипыНалогообложенияНДС.EnumValue.ПродажаОблагаетсяЕНВД" id="4fd8b55c-7241-4848-9340-681b7ab89878"/>
 			<Metadata name="Enum.ТипыНалогообложенияНДС.EnumValue.ПродажаНеОблагаетсяНДС" id="551a5a62-1539-4119-a8eb-9e2776eb2185"/>
 			<Metadata name="Enum.ТипыНалогообложенияНДС.EnumValue.ПродажаНаЭкспорт" id="633d6d89-805c-4698-a3de-da650e89bc40"/>
 			<Metadata name="Enum.ТипыНалогообложенияНДС.EnumValue.ПродажаОблагаетсяНДС" id="a0c1fc2e-0336-43d6-bacb-778df763e4b2"/>
 		</Metadata>
-		<Metadata name="Enum.ТипыХраненияФайлов" id="139d7787-8e09-47a1-8706-69dded9e7c68" configVersion="4489e3417659a7e036d74baa42b666d91f546814"/>
 		<Metadata name="Language.Русский" id="555cca23-2186-4e74-bff6-5cfbb81bf5c6" configVersion="e9948b2db73d1e3b9aa4003af5bac5e5fbc0a030"/>
 		<Metadata name="Role.РасшРТ_ОсновнаяРоль" id="e5c85b77-6d87-4819-ab0d-e529a37d0359" configVersion="ae5becc9f11bcc13b8e8543197ec04aa499caf57"/>
 		<Metadata name="StyleItem.ГиперссылкаЦвет" id="6636e179-7454-4031-88bd-51b434e24e98" configVersion="ce1756316986960131f10c8832d1a3a6301b13b0"/>
 		<Metadata name="StyleItem.ИтогиФон" id="dd1d08e5-61dc-4224-8dd6-ce9e51137683" configVersion="a80132ca84b12bb5f62e705a36b7450d025f7947"/>
 		<Metadata name="StyleItem.ЦветТекстаПроблема" id="3fa45680-8b73-48f7-a154-06d45bde628e" configVersion="d06f7538301213ba156a8f7f2ad3c28e2361e6dd"/>
 		<Metadata name="StyleItem.ЦветФонаВыделения" id="9bedb780-4b7e-442f-a2b2-c71b409c388f" configVersion="d9923296dd128021ff9fe1657fdfbd681811320a"/>
-		<Metadata name="Subsystem.Продажи" id="e94c07f0-7bbd-497b-af44-d6b284a7752d" configVersion="8cf25aeb36d429d9f653845e3efc89c46f4f99ba"/>
-		<Metadata name="Subsystem.Продажи.Subsystem.Рекламация" id="8a8ab0e2-22bb-4306-8ae8-06c0c87e33b1" configVersion="79f5c778c2bd63951d966d4869a648550d23457e"/>
 	</ConfigVersions>
 </ConfigDumpInfo>
