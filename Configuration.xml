@@ -65,6 +65,7 @@
 		</Properties>
 		<ChildObjects>
 			<Language>Русский</Language>
+			<Subsystem>Продажи</Subsystem>
 			<StyleItem>ЦветТекстаПроблема</StyleItem>
 			<StyleItem>ЦветФонаВыделения</StyleItem>
 			<StyleItem>ГиперссылкаЦвет</StyleItem>
@@ -74,12 +75,24 @@
 			<CommonPicture>Наборы</CommonPicture>
 			<CommonPicture>ЗаполнитьПоШаблону</CommonPicture>
 			<CommonPicture>ЗаполнитьФорму</CommonPicture>
+			<CommonPicture>РасшРТ_Excel</CommonPicture>
 			<Role>РасшРТ_ОсновнаяРоль</Role>
+			<DefinedType>ВладелецПрисоединенныхФайлов</DefinedType>
+			<DefinedType>ВладелецПрисоединенныхФайловОбъект</DefinedType>
+			<DefinedType>ПрисоединенныйФайл</DefinedType>
+			<DefinedType>ПрисоединенныйФайлОбъект</DefinedType>
+			<Catalog>РасшРТ_РекламацияПрисоединенныеФайлы</Catalog>
+			<Catalog>Пользователи</Catalog>
+			<Catalog>ТомаХраненияФайлов</Catalog>
+			<Catalog>ХранилищеДвоичныхДанных</Catalog>
 			<Document>ЗаказКлиента</Document>
-			<Document>ТранспортнаяНакладная</Document>
+			<Document>РасшРТ_Рекламация</Document>
 			<Enum>СпособыДоставки</Enum>
 			<Enum>ТипыНалогообложенияНДС</Enum>
 			<Enum>СтатусыДействияВидовЦен</Enum>
+			<Enum>РасшРТ_СтатусыРекламации</Enum>
+			<Enum>СтатусыИзвлеченияТекстаФайлов</Enum>
+			<Enum>ТипыХраненияФайлов</Enum>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>
