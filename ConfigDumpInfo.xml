@@ -35,7 +35,11 @@
 		<Metadata name="CommonPicture.Отчеты" id="e027e43d-cd70-40ba-8aab-87c2f832d6a2" configVersion="a89060fd55fc08ce4c7b8865bad714aac61f82ac"/>
 		<Metadata name="CommonPicture.РасшРТ_Excel" id="f82df1e8-aa3a-46d4-9965-466e1b9821fe" configVersion="3a2a83e4baf5f843ef2ce1b31ca4965e64650892"/>
 		<Metadata name="CommonPicture.РасшРТ_Excel.Picture" id="f82df1e8-aa3a-46d4-9965-466e1b9821fe.0" configVersion="d855b463cde0bc70a3368632b57ea0aa7952ac7d"/>
+<<<<<<< HEAD
 		<Metadata name="Configuration.ТД_РусТорг" id="638c1f57-457f-4887-a276-22eeb492284b" configVersion="efbbfd616f7d77099678a9d74c6b46eca7aa3219"/>
+=======
+		<Metadata name="Configuration.ТД_РусТорг" id="638c1f57-457f-4887-a276-22eeb492284b" configVersion="f1bfe79c6f2aaecb70509e6d3f9e6f243c4fa9d3"/>
+>>>>>>> local
 		<Metadata name="DefinedType.ВладелецПрисоединенныхФайлов" id="71e2fa1a-f496-444e-816d-05c675b350ac" configVersion="80b3b8c3b0f5d52177f7abee0234292909f64499"/>
 		<Metadata name="DefinedType.ВладелецПрисоединенныхФайловОбъект" id="583b78f0-4c6f-4ae7-b52c-6fa3a89955de" configVersion="4c32699ee24dc0041aa2ba10d14a9c7d767a3128"/>
 		<Metadata name="DefinedType.ПрисоединенныйФайл" id="41659f4b-4db3-4672-96d7-3727e2586c88" configVersion="721494d5955b2c2cc6923830a7195a553c798968"/>
@@ -107,8 +111,11 @@
 		<Metadata name="Document.РасшРТ_Рекламация.Template.xl_worksheets_sheet1_xml.Template" id="8e9b1530-069e-4da4-89d1-b3dd24b73d6a.0" configVersion="01bedce568445702adbcd1404b85160652bad338"/>
 		<Metadata name="Document.РасшРТ_Рекламация.Template.xl_worksheets_sheet2_xml" id="3713dccc-d605-4916-81e3-1802b5c5a5c4" configVersion="cc68a2e5c1c717a58ef662c3178dbc0bba250e1d"/>
 		<Metadata name="Document.РасшРТ_Рекламация.Template.xl_worksheets_sheet2_xml.Template" id="3713dccc-d605-4916-81e3-1802b5c5a5c4.0" configVersion="03c593434ab82d88c06a023cb6d6d0c8d8dd664c"/>
+<<<<<<< HEAD
 		<Metadata name="Document.ТранспортнаяНакладная" id="21e7452e-f743-4711-ba29-0431bdede5b8" configVersion="94b552c4b41dac548030a502f90f4e9559c91d77"/>
 		<Metadata name="Document.ТранспортнаяНакладная.ManagerModule" id="21e7452e-f743-4711-ba29-0431bdede5b8.2" configVersion="caf7c0c2a976cfa65a99edf70c334cb68b9f9ce8"/>
+=======
+>>>>>>> local
 		<Metadata name="Enum.РасшРТ_СтатусыРекламации" id="a1b2c3d4-e5f6-7890-abcd-ef1234567890" configVersion="60b7c0715e55d80af08e9bcd9dadfa8dc50f2263">
 			<Metadata name="Enum.РасшРТ_СтатусыРекламации.EnumValue.ОжидаетПроверки" id="11111111-1111-1111-1111-111111111111"/>
 			<Metadata name="Enum.РасшРТ_СтатусыРекламации.EnumValue.Отправлено" id="22222222-2222-2222-2222-222222222222"/>
