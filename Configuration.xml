@@ -76,6 +76,10 @@
 			<CommonPicture>ЗаполнитьФорму</CommonPicture>
 			<Role>РасшРТ_ОсновнаяРоль</Role>
 			<Document>ЗаказКлиента</Document>
+<<<<<<< HEAD
+=======
+			<Document>РасшРТ_Рекламация</Document>
+>>>>>>> local
 			<Document>ТранспортнаяНакладная</Document>
 			<Enum>СпособыДоставки</Enum>
 			<Enum>ТипыНалогообложенияНДС</Enum>
